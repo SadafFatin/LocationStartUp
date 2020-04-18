@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Location\nStartup</string>
+    <string name="last_updated_at_9_30_pm">Last Updated At 9.30 pm</string>
+    <string name="longitude_93_93">Longitude : 93.93</string>
+    <string name="latitude_20_93">Latitude : 20.93</string>
+    <string name="location_updates_will_be_received_only_when_the_app_is_in_foreground">Location Updates Will be received only when the app is in Foreground</string>
+</resources>

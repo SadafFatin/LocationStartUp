@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/colorbgAccent" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="50sp"
+        android:textStyle="bold"
+        android:textColor="#ffff"
+        android:gravity="center"
+        android:id="@+id/fullscreen_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text= "@string/app_name"
+        android:keepScreenOn="true"
+        android:fontFamily="@font/roboto_semi_bold"/>
+</LinearLayout>

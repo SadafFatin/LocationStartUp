@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DashBoardActivity"
+    android:orientation="vertical">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="150dp"
+       android:orientation="vertical"
+       android:padding="6dp"
+       android:background="@color/colormapLikeBg">
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/locationStatus"
+           android:padding="6dp"
+           android:fontFamily="@font/roboto_semi_bold"
+           android:textSize="20sp"
+           android:text="@string/location_updates_will_be_received_only_when_the_app_is_in_foreground">
+       </TextView>
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/location"
+           android:padding="6dp"
+           android:fontFamily="@font/roboto_semi_bold"
+           android:textSize="18sp"
+           android:drawablePadding="6dp"
+           android:drawableStart="@drawable/ic_location"
+           android:drawableLeft="@drawable/ic_location"
+           android:text="@string/latitude_20_93"
+           >
+       </TextView>
+
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/locationLastUpdated"
+           android:padding="6dp"
+           android:fontFamily="@font/roboto_semi_bold"
+           android:textSize="18sp"
+           android:drawableStart="@drawable/ic_watch"
+           android:drawableLeft="@drawable/ic_watch"
+           android:drawablePadding="6dp"
+           android:text="@string/last_updated_at_9_30_pm">
+       </TextView>
+
+
+
+
+   </LinearLayout>
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+</LinearLayout>
